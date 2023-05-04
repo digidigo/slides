@@ -1,0 +1,74 @@
+- title_slide:
+    title: "Mogli Bulk API Project Progress Update"
+    author: "David Clements"
+    date: "May 3, 2023"
+    logo: "mogli.png"
+
+- project_summary:
+    - "On track for July 11th release into customer sandboxes"
+    - "Live API allows the creation of Org and API keys for that org"
+    - "Salesforce work to begin by the end of this Sprint (May 16th)"
+    - "Ready to discuss management of Mogli API Keys within customer orgs"
+
+- project_timeline:
+    - label: "S1"
+      title: "Architecture and Infrastructure"
+      start: "2023-03-06"
+      end: "2023-03-19"
+      progress: "100"
+      color: "blue"
+    - label: "S2"
+      title: "API Key and Org Management"
+      start: "2023-03-20"
+      end: "2023-04-02"
+      progress: "90"
+      color: "green"
+    - label: "S3"
+      title: "Bulk APIs and Mock Provider"
+      start: "2023-04-03"
+      end: "2023-04-16"
+      progress: "0"
+      color: "red"
+    - label: "S4"
+      title: "All Providers"
+      start: "2023-04-17"
+      end: "2023-04-30"
+      progress: "0"
+      color: "red"
+    - label: "S5"
+      title: "Callbacks to Org"
+      start: "2023-05-01"
+      end: "2023-05-14"
+      progress: "0"
+      color: "red"
+    - label: "S6"
+      title: "Monitoring and Testing"
+      start: "2023-05-15"
+      end: "2023-05-21"
+      progress: "0"
+      color: "red"
+
+- accomplishments:
+    - "Infrastructure built out to support Development and Staging Environments"
+    - "API Design is done"
+    - "Ability to generate API keys and to authenticate the API Keys"
+    - "First API endpoint is live - it allows a Super Admin API Key to Create Organizations and to assign API Keys to those organizations"
+
+- demo:
+    description: "Show the current state of the project through a"
+    link_text: "live demo"
+    url: "https://www.loom.com/share/c5e9f00475cd427b8ed9be63cd1a18b0"
+
+- next_sprint:
+    - "Building the Bulk Gateways API"
+    - "Building the Bulk SMS API"
+    - "Building a Mock Provider API"
+    - "Exercise all of the APIs against the Mock Provider"
+
+- concerns_or_risks:
+    - "Coordinating with Salesforce Development"
+    - "Scalability Test"
+    - "Some nuance with MMS"
+
+- q_and_a:
+    description: "Address any questions or concerns from the audience"
